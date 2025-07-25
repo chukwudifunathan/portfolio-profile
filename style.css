@@ -9,7 +9,7 @@
     }
      .container{    
         max-width: 1000px;
-        margin:0% auto;
+        margin:0 auto;
         background-color: white;
         padding: 40px;
         display:flex;
@@ -37,7 +37,7 @@
     }
     .hero-text h1{
         font-size:2em;
-        columns: #1a1a1a2e;
+        columns: #1a1a2e;
         margin:bottom 20px;
     }
     .hero-text p{
@@ -57,7 +57,59 @@
     .hero-image img{
         width: 180px;
         height: 180px;
-        border: 50%;
+        border: none;
+        border-radius: 50%;
         object-fit: cover;
         border: 6px solid #eaf6fb;
+    }
+    .container-2{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .header-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .header-2 h2{
+        font-size: 1.2rem;
+        color: #2c2c2c;
+    }
+    .header-2 a{
+        color: #00aaff;
+        text-decoration:none ;
+        font-weight: 500;
+    }
+    .post{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    } 
+    .post-card{
+        background-color: white;
+        border-radius: 6px;
+        padding: 1.5rem;
+        width:100%;
+        max-width: 360px; 
+        box-shadow: 0 0 4px rgba(0,0,0, 0.04);
+    }
+    .post-title{
+        font-size: 1.125rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #1d1d1d;
+    }
+     .post-meta{
+        font-size: 0.875rem;
+        color: #666;
+        margin-bottom: 1rem;
+    }
+    .post-meta span{
+        margin: 0 0,5rem;
+    }
+    .post-content{
+        font-size: 0,875rem;
+        line-height: 1.5;
+        color:#444;
     }
